@@ -2,8 +2,6 @@
 
 `termgrid` 是一个轻量级 Python 库，能够将图片、LaTeX 公式或自定义二进制矩阵转换为终端可显示的盲文点阵字符，让你在命令行中可视化图像和数学公式。
 
-详见 [ZhuChongjing/termgrid](https://github.com/ZhuChongjing/termgrid)。
-
 ## 特性
 
 - 将任意图片转换为终端盲文点阵
@@ -21,7 +19,8 @@
 pip install pillow matplotlib numpy
 ```
 
-> **注意**：如果需要渲染 LaTeX 公式，还需在系统中安装 LaTeX 环境（如 TeX Live、MikTeX 或 MacTeX）。
+> [!TIP]
+> 如果需要渲染 LaTeX 公式，还需在系统中安装 LaTeX 环境（如 TeX Live、MikTeX 或 MacTeX）。
 
 ### 安装方式
 使用 pip 安装 `termgrid`：
